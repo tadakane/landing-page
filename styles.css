@@ -4,15 +4,12 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .header {
-    box-sizing: border-box;
     background-color: #1F2937;
-    padding: 10px 250px;
+    padding: 24px 250px;
     margin: 0;
-    width: 1500px;
 }
 
 .headerBar {
@@ -43,6 +40,20 @@ a {
     color: #E5E7EB;
 }
 
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding: 86px 0;
+}
+
+.left-header {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
 .hero {
     font-size: 48px;
     font-weight: 800;
@@ -54,3 +65,23 @@ a {
     color: #E5E7EB;
 }
 
+.signBtn {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.placeholder {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
