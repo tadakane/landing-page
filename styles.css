@@ -2,15 +2,36 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.header {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+}
+
 ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
-.header {
-    background-color: #1F2937;
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secHero {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
