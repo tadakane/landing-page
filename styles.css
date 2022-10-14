@@ -54,7 +54,7 @@ a {
 .left-header {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    max-width: 450px;
 }
 
 .hero {
@@ -95,7 +95,6 @@ a {
     padding: 100px 100px;
     background-color: rgb(121, 129, 133);
     margin: 16px;
-    flex-wrap: wrap;
 }
 
 .upper-body {
@@ -121,6 +120,7 @@ a {
     justify-content: center;
     gap: 52px;
     padding: 35px;
+    flex-wrap: wrap;
 }
 
 .info-box {
