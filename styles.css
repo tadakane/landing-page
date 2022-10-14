@@ -84,7 +84,20 @@ a {
     box-sizing: border-box;
     width: 500px;
     height:250px;
-    background-color: gray;
+    background-color: rgb(121, 129, 133);
     margin: 16px;
     padding: 50px;
+    color: white;
+}
+
+.upper-body {
+    margin: 0;
+    padding: 24px 200px;
+}
+
+.info-label {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 10px;
 }
