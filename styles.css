@@ -94,7 +94,6 @@ a {
     box-sizing: border-box;
     padding: 100px 100px;
     background-color: rgb(121, 129, 133);
-    margin: 16px;
 }
 
 .upper-body {
@@ -118,20 +117,20 @@ a {
 .info-container {
     display:flex;
     justify-content: center;
-    gap: 52px;
+    gap: 32px;
     padding: 35px;
     flex-wrap: wrap;
 }
 
 .info-box {
     text-align: center;
-    max-width: 175px;
+    max-width: 160px;
 }
 
 .placeholder-box {
     border: 5px solid #3882F6;
     box-sizing: border-box;
-    width: 175px;
-    height: 175px;
+    width: 160px;
+    height: 160px;
     border-radius: 15px;
 }
