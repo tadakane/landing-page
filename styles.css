@@ -43,7 +43,7 @@ a {
 .main-header {
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 50px;
     align-items: center;
     padding: 100px 0;
 }
@@ -70,7 +70,7 @@ a {
     color: #E5E7EB;
     border: 0;
     padding: 10px;
-    width: 100px;
+    width: 150px;
     margin: 10px 0;
     border-radius: 10px;
     font-size: 16px;
@@ -100,4 +100,16 @@ a {
     font-weight: 800;
     color: #1F2937;
     padding: 10px;
+    text-align: center;
+}
+
+.info-container {
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-box {
+    text-align: center;
+    max-width: 150px;
 }
