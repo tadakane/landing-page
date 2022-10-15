@@ -173,5 +173,21 @@ a {
 }
 
 .action-box {
+    display: flex;
+    flex: 1 1 0;
     background-color: #3882F6;
+    padding: 25px;
+    justify-content: space-around;
+    max-width: 850px;
+}
+
+.action-call {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.action-description {
+    font-size: 16px;
+    color: white;
 }
