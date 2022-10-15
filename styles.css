@@ -154,16 +154,24 @@ a {
 }
 
 .quote {
-    display: flex;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    justify-content: flex-end;
 }
 
 .credits {
-    display: flex;
     font-size: 28px;
     font-weight: 700;
-    justify-content: flex-end;
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: white;
+    display: flex;
+    padding: 24px 200px;
+    justify-content: center;
+}
+
+.action-box {
+    background-color: #3882F6;
 }
