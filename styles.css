@@ -134,14 +134,14 @@ a {
 
 .info-box {
     text-align: center;
-    max-width: 160px;
+    max-width: 175px;
 }
 
 .placeholder-box {
     border: 4px solid #3882F6;
     box-sizing: border-box;
-    width: 160px;
-    height: 160px;
+    width: 175px;
+    height: 175px;
     border-radius: 15px;
 }
 
