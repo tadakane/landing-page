@@ -207,3 +207,12 @@ a {
     height: 35px;
     border-radius: 10px;
 }
+
+.footer {
+    color: white;
+    background: #1F2937;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
