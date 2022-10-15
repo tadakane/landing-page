@@ -128,9 +128,42 @@ a {
 }
 
 .placeholder-box {
-    border: 5px solid #3882F6;
+    border: 4px solid #3882F6;
     box-sizing: border-box;
     width: 160px;
     height: 160px;
     border-radius: 15px;
+}
+
+.placeholder-text {
+    opacity: 60%;
+    padding: 5px;
+}
+
+.lower-body {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 200px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.lower-content {
+    max-width: 800px;
+    padding: 100px 0px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: flex-end;
+}
+
+.credits {
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    justify-content: flex-end;
 }
